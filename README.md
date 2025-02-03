@@ -42,7 +42,8 @@ If you use the program for research, please cite:
 ## Usage: Python Interface
 The Python scripts interact with the C++ backend to process and analyze molecular dynamics data.
 
-### `computeTetrahedrons` <small>Computes the perfect tetrahedron points for each water molecule.</small>
+### `computeTetrahedrons`
+Computes the perfect tetrahedron points for each water molecule.
 
 **Parameters:**
   - **`calculator`**: Instance of the `pyv4s.V4S` class, which provides the interface to the C++ backend.
@@ -68,7 +69,8 @@ The Python scripts interact with the C++ backend to process and analyze molecula
 
 <br>
 
-### `computeV4S` <small>Calculates the V<sub>4S</sub> index for each water molecule.</small>
+### `computeV4S` 
+Calculates the V<sub>4S</sub> index for each water molecule.
 
 **Parameters:**
   - **`calculator`**: Instance of the `pyv4s.V4S` class, which provides the interface to the C++ backend.
@@ -91,7 +93,8 @@ The Python scripts interact with the C++ backend to process and analyze molecula
 
 <br>
 
-### `computeViSPoints` <small>Calculates the positions of the four tetrahedron points and their corresponding V<sub>iS</sub> values (i = 1, 2, 3, 4).</small>
+### `computeViSPoints`
+Calculates the positions of the four tetrahedron points and their corresponding V<sub>iS</sub> values (i = 1, 2, 3, 4).
 
 **Parameters:**
   - **`calculator`**: Instance of the `pyv4s.V4S` class, which provides the interface to the C++ backend.
@@ -166,7 +169,8 @@ In case you want to interact directly with the C++ library (not recommended).
 
 <br>
 
-### `tetrahedrons` <small>Calculates perfect tetrahedron points for every water molecule.</small>
+### `tetrahedrons`
+Calculates perfect tetrahedron points for every water molecule.
 
 **Parameters:**
   - **`atom_list (Atom*)`**: Pointer to the first member of an array of atoms that make up the system. Use the python class `Atom`.
@@ -183,7 +187,8 @@ In case you want to interact directly with the C++ library (not recommended).
 
 <br>
 
-### `V4S` <small>Calculates the V<sub>4S</sub> index for every water molecule.</small>
+### `V4S`
+Calculates the V<sub>4S</sub> index for every water molecule.
 
 **Parameters:**
   - **`atom_list (Atom*)`**: Pointer to the first member of an array of atoms that make up the system. Use the python class `Atom`.
@@ -200,7 +205,8 @@ In case you want to interact directly with the C++ library (not recommended).
 
 <br>
 
-### `ViSPoints` <small>Calculates the position of the four points of the tetrahedron and the corresponding V<sub>iS</sub> ( with i={1,2,3,4} ).</small>
+### `ViSPoints`
+Calculates the position of the four points of the tetrahedron and the corresponding V<sub>iS</sub> ( with i={1,2,3,4} ).
 
 **Parameters:**
   - **`atom_list (Atom*)`**: Pointer to the first member of an array of atoms that make up the system. Use the python class `Atom`.
@@ -217,14 +223,16 @@ In case you want to interact directly with the C++ library (not recommended).
 
 <br>
 
-### `freeMemory` <small>Releases memory allocated for 1D arrays.</small>
+### `freeMemory`
+Releases memory allocated for 1D arrays.
 
 **Parameters:**
   - **`pointer (float*)`**: Pointer to the allocated memory.
 
 <br>
 
-### `freeMemoryTet` <small>Releases memory allocated for 3D arrays.</small>
+### `freeMemoryTet`
+Releases memory allocated for 3D arrays.
 
 **Parameters:**
   - **`pointer (float***)`**: Pointer to the allocated 3D array (tetrahedron).
