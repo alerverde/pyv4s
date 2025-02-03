@@ -26,8 +26,7 @@ If you use the program for research, please cite:
 ### Setup
 1. Clone the repository:
    ```bash copy
-   git clone https://github.com/alerverde/py4vs.git
-   cd py4vs
+   git clone https://github.com/alerverde/pyv4s.git
    ```
 2. Compile the C++ library:
    ```bash
