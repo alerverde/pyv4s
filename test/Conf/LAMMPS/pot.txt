@@ -1,0 +1,10 @@
+#C CNT
+C 0.359824 3.39967
+
+# O_water - O_water
+OW 0.774900 3.1589
+# H_water - H_water
+HW1 0.00000 0.0000
+HW2 0.00000 0.0000
+# M_water - M_water
+MW 0.00000 0.0000
