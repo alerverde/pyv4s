@@ -1,4 +1,4 @@
-__version__ = "0.1a3"
+__version__ = "1.0"
 
 print("pyv4s program started.")
 print("Version: ", __version__)
